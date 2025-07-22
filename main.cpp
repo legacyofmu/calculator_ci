@@ -1,10 +1,10 @@
 #include "calculator.h"
-#incliude "gtest/gtest.h"
+#include "gtest/gtest.h"
 
 namespace {
-class CalculatorTest : public ::testing::TGest {
+class CalculatorTest : public ::testing::Test {
 public:
-	Calcualtor gCalculator;
+	Calculator gCalculator;
 
 protected:
 	CalculatorTest() {
